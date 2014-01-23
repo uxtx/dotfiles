@@ -1,0 +1,13 @@
+{
+    "font_size": 17.0,
+    "ignored_packages": [],
+    "folder_exclude_patterns": [
+        "build",
+        "dist"
+    ],
+    "file_exclude_patterns": [
+        ".min.js",
+        "*.sassc"
+    ]
+}
+
