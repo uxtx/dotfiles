@@ -2,12 +2,7 @@
 # OSX aliases
 #
 
-alias subl="sublime"
 alias gitx="open -a GitX"
-alias ffm="cd ~/Work/feedmagnet"
-alias bv="cd ~/Work/feedmagnet/bazaarvoice"
-alias console="cd ~/Work/feedmagnet/fm3/console"
-alias ffmw="cd ~/Work/feedmagnet/clients/working"
 
 # # anything local?
 if [ -e $HOME/.bashrc ]; then
@@ -108,13 +103,6 @@ complete -o default -F _pip_completion pip
 # pip bash completion end
 
 export PATH=/usr/local/bin:$PATH
-export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
-
-
-# fm specific stuff
-export FMCLIENV=/Users/davebirch/.virtualenvs/fmcli
-alias fm='/opt/fm-cli/bin/fm'
-alias fmc='/opt/fm-cli/bin/fm client'
 
 export VIRTUALENVWRAPPER_PYTHON=`which python`
 export VIRTUALENVWRAPPER_VIRTUALENV=`which virtualenv`
@@ -123,4 +111,4 @@ source `which virtualenvwrapper.sh`
 # virtualenv things
 source /usr/local/bin/virtualenvwrapper.sh
 
-export PATH=/usr/local/bin:/Applications/Postgres93.app/Contents/MacOS/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin
